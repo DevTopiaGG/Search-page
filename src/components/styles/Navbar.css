@@ -1,0 +1,63 @@
+/* Mobile Responsive Styles */
+@media screen and (min-width: 1440px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+/* Desktop Styles */
+#header-title {
+  margin: 0;
+  padding-top: 1%;
+  opacity: 1 !important;
+  color: white !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+}
+
+nav {
+  margin: -20px 0 0 0;
+  padding: 0;
+  float: right;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  list-style: none;
+  color: white;
+  border: 1px solid white;
+  font-family: "oswald";
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#login {
+  border: none;
+}
+
+#login:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#signin:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease-in;
+}
